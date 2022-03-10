@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e440ae1359.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -21,32 +22,36 @@
                             width="90px " height="45px"></a>
                 </div>
 
-                <div class="tbh">
+                
+                <nav class="tbh">
                     <a class="tbha" href="#Hébergements à Marseille">Hébergements</a>
-                </div>
+                </nav>
 
-                <div class="tba">
+                <nav class="tba">
                     <a href="#Activités à Marseille">Activités</a>
-                </div>
+                </nav>
+                
             </div>
 
-            <div>
+            <div class="blocksearch">
+                <div >
                 <p>
-                <h1 id="hone">Trouvez votre hébergement <br id ="cutclear">pour des vacances de rêve</h1>
-                <span>En plein centre ville ou en pleine nature</span>>
+                <h1 class="hone">Trouvez votre hébergement <br id ="cutclear">pour des vacances de rêve</h1>
+                <span class="hspan">En plein centre ville ou en pleine nature</span>
                 </p>
 
-                <form>
-                    <div></div>
-                    <label for="localform">
-                        <img>
-                    </label>
+                <form class="formgen">
+                    <div>
+                    <label for="localform"><i class="fa-solid fa-location-dot"></i></label>
+                        
                     <input type="text" id="localform">
-
+                    </div>
+                    <button id="bone"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button id="btwo">Rechercher</button>
                 </form>
-            </div>
+            
 
-            <div>
+                <div>
                 <h2 class="htwo">filtres</h2>
                 <ul>
                     <li>Economique</li>
@@ -58,7 +63,8 @@
                     <img src="#" alt="logo inforamtion">
                     <span>Plus de 500 logements sont disponible dans cette ville</span>
                 </div>
-            </div>
+                </div>
+           </div>
         </header>
 
         <section class="secheb">

@@ -1,142 +1,203 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&display=swap%22");
-* {
-  font-family: "Raleway", sans-serif;
-}
-/* TOP NAV */
-.tbnav {
-    display: flex;
-}
+* {font-family: "Raleway", sans-serif;}
 
-.logo {
-    flex-grow: 0.80;
-    padding: 35px 0px 25px 35px;
 
-}
 
-.tbh {
-    flex-grow: 0.1;
-    padding: 35px 0 0px 0px;
-    text-align: center;
-    border-top: 2px solid white;
-}
-.tbh a {
+    /* TOP NAV 1440px moyenne */
+
+    .marge_gen{
+        margin: 0 45px 0 45px;
+
+    }
+
+
+    .tbnav {
+        display: flex;
+        height: 110px;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .logo {
+    
+        width: 75%;
+        padding: 35px 0px 20px 5px;
+
+        }
+
+    .tbh {
+        width: 170px;
+        padding: 35px 0px 0 0;
+        text-align: center;
+        border-top: 2px solid white;
+        justify-items: auto;
+        
+    }
+
+
+    .tba {
+        float: left;
+        width: 170px; 
+        padding: 35px 0 0 0px;
+        text-align: center;
+        border-top: 2px solid white;
+
+    }
+    .tba a,.tbh a {
     text-decoration: none;
     color: black;
-    width: max-content;
+    }
     
-}
-
-.tba {
-    flex-grow: 0.10;
-    padding: 35px 15px 0 15px;
-    text-align: center;
-    border-top: 2px solid white;
-
-}
-.tba a {
-    text-decoration: none;
-    color: black;
-    
-
-}
-.tbh:hover a,.tba:hover  a{
+    .tbh:hover a,.tba:hover  a{
     
     color: #0065fc;   
-}
+    }
    
-.tbh:hover,.tba:hover {
+    .tbh:hover,.tba:hover {
 
     border-top: 2px solid #0065fc;  
-
-
-}
-/* FIN TOP NAV /*
-
-/* P2 phrase intro + search PC */
-
-
-
-    
-
-
-
-
-
-
-/* MOBILE VERSION 768 px */
- 
-@media screen and (max-width : 768px) {
-
-    /* TOPBAR MOBILE */
-.tbnav{
-    display:flex;
-    flex-wrap: wrap;
-    
-}
-.tbnav .logo { 
-    width: 100%;
-    text-align: center;
-}
-
-.tbh {
-     width: 50%;
-}
-
-.tba {
-    flex: content;
-}
-    
-.tbh:hover,.tba:hover {
-    border-top: 2px solid white;
-    border-bottom: 2px solid #0065fc;  
-    
-
-}
-.tbh {
-    padding: 0 0 25px 0 ;
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-
-}
-
-.tba {
-    padding: 0 0 25px 0;
-    border-bottom: 2px solid white;
-}
-
-/* FIN TOP BAR MOBILE */
-
-#hone {
-   font-size: xx-large;
-  
-}
- 
-/* cut h1 mobile */
-
-#cutclear {
-    display: block;
-}
-
-
-}
-/* VERSION TABLETTE */
-
-@media screen and (min-width: 992px) {
-
-#cutclear {
-    display: none;
     }
-#hone {
-    font-size: normal
-    ;
+
+    #cutclear {
+    display: none
+    }
+
+    .hone{
     
+    font-size: 1.4em;
+
+    }
+
+
+    /*FORMUMAIRE*/
+
+    .formgen{
+        display: flex;
+        margin-top: 10%;
+    }
+    
+    
+
+
+@media screen and (max-width: 992px) {
+
+
+
+     
     
 }
+
+
+/* MOBILE 380px moyenne*/
+
+/*topnavmobile*/
+
+@media screen and (max-width: 768px) {
+
+    .marge_gen{
+        margin: 0;
+        }
+
+    .blocksearch{
+        margin: 0px 15px 0 15px;
+
+    }
+
+    #cutclear{
+         display: block;
+          
+    }    
+
+    .tbnav{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 7%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .tbnav .logo { 
+        width: 100%;
+        text-align: center;
+        padding: 20px 5px 0 0;
+        
+    }
+
+    .tbh {
+         width: 50%;
+    }
+
+    .tba {  
+         flex: content;
+    }
+    
+    .tbh:hover,.tba:hover {
+        border-top: 4px solid white;
+        border-bottom: 4px solid #0065fc;  
+    }
+
+    .tbh, .tba {
+        padding: 25px 0 15px 0 ;
+        border-bottom: 4px solid white;
+        border-top: 4px solid white;
+
+    }
+    
+    .hone{
+        margin-top: 35px;
+        
+        
+    }
+
+    .hone{
+    
+        font-size: 1.4em;
+    }
+    
+    /* FORMULAIRE */
+
+    #bone{
+        display: block;
+        background: red;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+    
   
-    
+
+
+  
 
 
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
