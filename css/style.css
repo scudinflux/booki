@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&display=swap%22");
+* {
+  font-family: "Raleway", sans-serif;
+}
+/* TOP NAV */
+.tbnav {
+    display: flex;
+}
+
+.logo {
+    flex-grow: 0.80;
+    padding: 35px 0px 25px 35px;
+
+}
+
+.tbh {
+    flex-grow: 0.1;
+    padding: 35px 0 0px 0px;
+    text-align: center;
+    border-top: 2px solid white;
+}
+.tbh a {
+    text-decoration: none;
+    color: black;
+    width: max-content;
+    
+}
+
+.tba {
+    flex-grow: 0.10;
+    padding: 35px 15px 0 15px;
+    text-align: center;
+    border-top: 2px solid white;
+
+}
+.tba a {
+    text-decoration: none;
+    color: black;
+    
+
+}
+.tbh:hover a,.tba:hover  a{
+    
+    color: #0065fc;   
+}
+   
+.tbh:hover,.tba:hover {
+
+    border-top: 2px solid #0065fc;  
+
+
+}
+/* FIN TOP NAV /*
+
+/* P2 phrase intro + search PC */
+
+
+
+    
+
+
+
+
+
+
+/* MOBILE VERSION 768 px */
+ 
+@media screen and (max-width : 768px) {
+
+    /* TOPBAR MOBILE */
+.tbnav{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.tbnav .logo { 
+    width: 100%;
+    text-align: center;
+}
+
+.tbh {
+     width: 50%;
+}
+
+.tba {
+    flex: content;
+}
+    
+.tbh:hover,.tba:hover {
+    border-top: 2px solid white;
+    border-bottom: 2px solid #0065fc;  
+    
+
+}
+.tbh {
+    padding: 0 0 25px 0 ;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+
+}
+
+.tba {
+    padding: 0 0 25px 0;
+    border-bottom: 2px solid white;
+}
+
+/* FIN TOP BAR MOBILE */
+
+#hone {
+   font-size: xx-large;
+  
+}
+ 
+/* cut h1 mobile */
+
+#cutclear {
+    display: block;
+}
+
+
+}
+/* VERSION TABLETTE */
+
+@media screen and (min-width: 992px) {
+
+#cutclear {
+    display: none;
+    }
+#hone {
+    font-size: normal
+    ;
+    
+    
+}
+  
+    
+
+
+
+
+
+}
