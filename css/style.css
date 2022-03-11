@@ -148,6 +148,7 @@
   height: 50px;
   width: 190px ;
   display: flex;
+  justify-content: center ;
   align-items: center;
   border: #f2f2f2  solid 1px;
   border-radius: 50px;
