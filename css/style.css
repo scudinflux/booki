@@ -1,296 +1,239 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&display=swap%22");
-* {font-family: "Raleway", sans-serif;}
-
-
-
-    /* TOP NAV 1440px moyenne */
-
-    .marge_gen{
-        margin: 0 45px 0 45px;
-
-    }
-
-
-    .tbnav {
-        display: flex;
-        height: 110px;
-        width: 100%;
-        justify-content: space-between;
-
-    }
-
-    .logo {
-    
-        width: 75%;
-        padding: 35px 0px 20px 5px;
-
-        }
-
-    .tbh {
-        width: 170px;
-        padding: 35px 0px 0 0;
-        text-align: center;
-        border-top: 2px solid white;
-        justify-items: auto;
-        
-    }
-
-
-    .tba {
-        float: left;
-        width: 170px; 
-        padding: 35px 0 0 0px;
-        text-align: center;
-        border-top: 2px solid white;
-
-    }
-    .tba a,.tbh a {
-    text-decoration: none;
-    color: black;
-    }
-    
-    .tbh:hover a,.tba:hover  a{
-    
-    color: #0065fc;   
-    }
-   
-    .tbh:hover,.tba:hover {
-
-    border-top: 2px solid #0065fc;  
-    }
-
-    #cutclear {
-    display: none
-    }
-
-    .hone{
-       
-    font-size: 1.4em;
-    margin-bottom: 1%;
-
-    }
-
-   
-    
-    /*FORMUMAIRE*/
-
-    .formgen{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        width: 425px;
-        height: 50px;
-        margin-top: 3%;
-        
-    }
-    
-   /*
-    #labelform{
-        display: flex ;
-        font-size: 120%;
-        background: yellow;
-        width: 68%;
-        
-    }
-    
-    */
-
-
-    .fa-solid.fa-location-dot{
-            display: flex;
-            width: 50px;
-            height: 53px;
-            font-size: 120%;
-            align-items: center;
-            justify-content: center;
-            background: #F2F2F2;
-            border: #F2F2F2 solid 1px;
-            border-top-left-radius: 15%;
-            border-bottom-left-radius: 15% ;
-            
-            
-
-    }
-
-    .inputform{
-       
-        height: 51px;
-        width: 100%;   
-        border: #F2F2F2 solid 1px;
-        font-weight: bold;
-        font-size: 120%;
-        padding-left: 4%;
-       
-        
-          
-    }
-    
-    .inputform::placeholder{
-        color: #0065fc;
-    }
-
-/*
-    #buttonform {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 135px;
-        background: #0065fc;
-       
-    }
- */ 
-    #btwo{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 135px;
-        height: 54px;
-        font-weight: bold ;
-        background: #0065fc;
-        border: #F2F2F2 solid 1px;
-        border-top-right-radius: 20%;
-        border-bottom-right-radius: 20%;
-        color : white;
-        font-size: 120%;
-
-        
-        
-
-    }
-
-
-    #bone{
-        display: none;
-    }
-
-
-
-  
-
-@media screen and (max-width: 992px) {
-
-
-
-     
-    
+* {
+  font-family: "Raleway", sans-serif;
 }
 
+*{ box-sizing: border-box;}
+
+/* TOP NAV 1440px moyenne */
+
+.marge_gen {
+  margin: 0 45px 0 45px;
+}
+
+.tbnav {
+  display: flex;
+  height: 110px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 75%;
+  padding: 35px 0px 20px 5px;
+}
+
+.tbh {
+  width: 170px;
+  padding: 35px 0px 0 0;
+  text-align: center;
+  border-top: 2px solid white;
+  justify-items: auto;
+}
+
+.tba {
+  float: left;
+  width: 170px;
+  padding: 35px 0 0 0px;
+  text-align: center;
+  border-top: 2px solid white;
+}
+.tba a,
+.tbh a {
+  text-decoration: none;
+  color: black;
+}
+
+.tbh:hover a,
+.tba:hover a {
+  color: #0065fc;
+}
+
+.tbh:hover,
+.tba:hover {
+  border-top: 2px solid #0065fc;
+}
+
+#cutclear {
+  display: none;
+}
+
+.hone {
+  font-size: 140%;
+  margin-bottom: 1%;
+}
+
+/*FORMUMAIRE*/
+
+.formgen {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 425px;
+  height: 50px;
+  margin-top: 3%;
+}
+
+
+.fa-solid.fa-location-dot {
+  display: flex;
+  width: 50px;
+  height: 53px;
+  font-size: 120%;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+  border: #f2f2f2 solid 1px;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.inputform {
+  height: 51px;
+  width: 230px;
+  border: #f2f2f2 solid 1px;
+  font-weight: bold;
+  font-size: 120%;
+  padding-left: 4%;
+}
+
+.inputform::placeholder {
+  color: #0065fc;
+}
+
+.inputform:focus {
+  outline: none;
+}
+
+
+#btwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  height: 54px;
+  font-weight: bold;
+  background: #0065fc;
+  border: #0065fc solid 1px;
+  border-radius: 0 20px 20px 0;
+  color: white;
+  font-size: 120%;
+}
+
+.fa-solid.fa-magnifying-glass {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .hone {
+    font-size: 140%;
+    margin-top: 2%;
+  }
+}
 
 /* MOBILE 380px moyenne*/
 
 /*topnavmobile*/
 
 @media screen and (max-width: 768px) {
+  .marge_gen {
+    margin: 0;
+  }
 
-    .marge_gen{
-        margin: 0;
-        }
+  .blocksearch {
+    margin: 0px 20px 0 20px;
+  }
 
-    .blocksearch{
-        margin: 0px 15px 0 15px;
+  #cutclear {
+    display: block;
+  }
 
-    }
+  .tbnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 7%;
+    margin: 0;
+    padding: 0;
+  }
 
-    #cutclear{
-         display: block;
-          
-    }    
+  .tbnav .logo {
+    width: 100%;
+    text-align: center;
+    padding: 20px 5px 0 0;
+  }
 
-    .tbnav{
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        height: 7%;
-        margin: 0;
-        padding: 0;
+  .tbh {
+    width: 50%;
+  }
 
-    }
+  .tba {
+    flex: content;
+  }
 
-    .tbnav .logo { 
-        width: 100%;
-        text-align: center;
-        padding: 20px 5px 0 0;
-        
-    }
+  .tbh:hover,
+  .tba:hover {
+    border-top: 4px solid white;
+    border-bottom: 4px solid #0065fc;
+  }
 
-    .tbh {
-         width: 50%;
-    }
+  .tbh,
+  .tba {
+    padding: 25px 0 15px 0;
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+  }
 
-    .tba {  
-         flex: content;
-    }
+  .hone {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 140%;
+  }
+
+  /* FORMULAIRE */
+
+  .formgen{
+      display: flex;
+      justify-content: center;
+      width: 340px;
+      height: 54px;
+      margin-right: 0;
+      margin-top: 50px;
+     border: #f2f2f2 solid 1px;
+     border-radius: 20px;
+     
+      
+  }
+
+
+#btwo{
+    display: none;
+}
+
+
+.fa-solid.fa-magnifying-glass{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 50px;
+    border-radius: 0;
+    border: #0065fc solid 1px;
+    background: #0065fc;
+    color: white;
+    border-radius: 20px;
     
-    .tbh:hover,.tba:hover {
-        border-top: 4px solid white;
-        border-bottom: 4px solid #0065fc;  
-    }
-
-    .tbh, .tba {
-        padding: 25px 0 15px 0 ;
-        border-bottom: 4px solid white;
-        border-top: 4px solid white;
-
-    }
-    
-    .hone{
-        margin-top: 35px;
-        
-        
-    }
-
-    .hone{
-    
-        font-size: 1.4em;
-    }
-    
-    /* FORMULAIRE */
-
-    #bone{
-        display: block;
-        background: red;
-    }
-
-    #btwo{
-        display: none;
-
-    }
+}
 
 
+#localform{
+    border: none;
+    width: 238px;
 
-
-
-
-
-
-
-
+}
 
 
 
 
 }
-    
-  
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
