@@ -71,7 +71,7 @@
   justify-content: flex-start;
   width: 425px;
   height: 50px;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 
 
@@ -124,12 +124,180 @@
   display: none;
 }
 
+/* FILTRE */
+
+.filtres {
+  display: flex;
+  align-items: center;
+  width: 930px;
+  height: 50px;
+  margin-top: 35px;
+  font-weight: 80%;
+  margin-bottom: 3%;
+  font-weight: bold;
+
+}
+
+.htwo{
+  margin-right: 30px
+}
+
+/* money */
+.money{
+  height: 50px;
+  width: 190px ;
+  display: flex;
+  align-items: center;
+  border: #f2f2f2  solid 1px;
+  border-radius: 50px;
+  
+  
+  
+}
+
+.fa-money-bill-wave{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #DEEBFF;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  
+}
+
+/*child*/
+
+.child{ 
+  
+  height: 50px;
+  width: 150px ;
+  display: flex;
+  align-items: center;
+  border: #f2f2f2 solid 1px;
+  border-radius: 50px;
+  margin: 0 25px;
+
+}
+
+.fa-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #DEEBFF;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  
+}
+
+/*romantique*/
+
+.romantique{
+  height: 50px;
+  width: 180px ;
+  display: flex;
+  align-items: center;
+  border: #f2f2f2  solid 1px;
+  border-radius: 50px;
+  margin-right: 25px;
+}
+
+.romantique > i:nth-child(1){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #DEEBFF;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+
+}
+
+/*dog */
+
+.dog{
+  height: 50px;
+  width: 235px ;
+  display: flex;
+  align-items: center;
+  border: #f2f2f2 solid 1px;
+  border-radius: 50px;
+ 
+
+}
+
+.dog > i:nth-child(1){
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #DEEBFF;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 18px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLETTE */
+
+
 @media screen and (max-width: 992px) {
   .hone {
     font-size: 140%;
     margin-top: 2%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MOBILE 380px moyenne*/
 
