@@ -78,7 +78,7 @@
 .fa-solid.fa-location-dot {
   display: flex;
   width: 50px;
-  height: 53px;
+  height: 54px;
   font-size: 120%;
   align-items: center;
   justify-content: center;
@@ -89,7 +89,7 @@
 }
 
 .inputform {
-  height: 51px;
+  height: 54px;
   width: 230px;
   border: #f2f2f2 solid 1px;
   font-weight: bold;
