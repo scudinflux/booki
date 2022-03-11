@@ -67,10 +67,11 @@
     .hone{
        
     font-size: 1.4em;
-    margin-bottom: 0.4%;
+    margin-bottom: 1%;
 
     }
 
+   
     
     /*FORMUMAIRE*/
 
@@ -80,11 +81,11 @@
         justify-content: flex-start;
         width: 425px;
         height: 50px;
-        margin-top: 1%;
+        margin-top: 3%;
         
     }
     
-   
+   /*
     #labelform{
         display: flex ;
         font-size: 120%;
@@ -93,14 +94,20 @@
         
     }
     
-    
+    */
+
+
     .fa-solid.fa-location-dot{
             display: flex;
             width: 50px;
-            height: 50px;
+            height: 53px;
             font-size: 120%;
             align-items: center;
             justify-content: center;
+            background: #F2F2F2;
+            border: #F2F2F2 solid 1px;
+            border-top-left-radius: 15%;
+            border-bottom-left-radius: 15% ;
             
             
 
@@ -108,27 +115,58 @@
 
     .inputform{
        
-        height: 45px;
-        width: 100%;
+        height: 51px;
+        width: 100%;   
+        border: #F2F2F2 solid 1px;
+        font-weight: bold;
+        font-size: 120%;
+        padding-left: 4%;
+       
+        
+          
+    }
+    
+    .inputform::placeholder{
+        color: #0065fc;
     }
 
+/*
     #buttonform {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 135px;
         background: #0065fc;
+       
+    }
+ */ 
+    #btwo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 135px;
+        height: 54px;
+        font-weight: bold ;
+        background: #0065fc;
+        border: #F2F2F2 solid 1px;
+        border-top-right-radius: 20%;
+        border-bottom-right-radius: 20%;
+        color : white;
+        font-size: 120%;
+
         
+        
+
     }
 
-    #btwo{
-        font-style: ;
-    }
 
     #bone{
         display: none;
     }
 
+
+
+  
 
 @media screen and (max-width: 992px) {
 
@@ -213,6 +251,12 @@
         display: block;
         background: red;
     }
+
+    #btwo{
+        display: none;
+
+    }
+
 
 
 
