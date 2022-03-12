@@ -11,6 +11,8 @@
 
 .marge_gen {
   margin: 0 45px 0 45px;
+  width: 94%;
+  height: auto;
 }
 
 .tbnav {
@@ -147,11 +149,12 @@
 .money {
   display: flex;
   height: 50px;
-  width: 190px;
-  justify-content: center;
+  width: 195px;
+  justify-content: left;
   align-items: center;
   border: #f2f2f2 solid 1px;
   border-radius: 50px;
+  
 }
 
 .money > i:nth-child(1) {
@@ -247,6 +250,10 @@
 
 /* info span*/
 
+.info{
+  margin: 30px 5px ;
+}
+
 .fa-info {
   padding: 5px 10px;
   border: #deebff solid 1px;
@@ -259,7 +266,191 @@
   display: none;
 }
 
-/* TABLETTE  moyenne */
+
+/* HERGERGEMENT*/
+
+.mainone{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 15%;
+  background: red;
+}
+
+
+.secheb{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 65%;
+  background : #f2f2f2;
+  padding : 45px 40px;
+  border-radius: 30px;
+
+}
+
+
+.hebmar{
+  width: 100%  
+  
+}
+
+.hnone{
+  margin-top: 0;
+  margin-bottom: 3%;
+}
+
+
+.carteheb{
+  display: flex;
+  justify-content: flex-start;
+  width: 30%;
+  height: 35%;
+  margin-bottom: 6%;
+  background: white;
+  border-radius: 30px;
+  padding: 2%;
+
+} 
+
+.affpheb{
+  width: 100%;  
+  padding-bottom: 5%;
+  margin: 0;
+
+}
+
+
+/*SIDEBAR*/
+
+
+
+.asipop{
+  width: 32%;
+  background: #f2f2f2;
+  border-radius: 30px;
+  padding: 40px 35px 35px 35px;
+
+}
+.titrepop{
+  display: flex;
+  margin: 0 0 35px 0;
+  justify-content: space-between;
+}
+
+
+.cartepop{
+  width: 98%;
+  height: 25%;
+  margin-bottom: 35px;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+
+
+
+}
+
+{
+  background: red;
+  width: 20px;
+  height: 20px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* ACTIVITE */
+
+.secact{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 60px;
+ background: purple;
+
+}
+
+
+.actmar{
+  display: flex;
+  
+  margin: 0;
+  width: 100% ;
+  height: 10%;
+
+}
+.actmarins{
+  margin: 0 0 1% 0;
+  
+}
+
+.cartepopone{
+  display: flex;
+
+  width: 22%;
+  height: 445px;
+  border-radius: 20px;
+  background: yellow;
+
+}
+
+.cartepoptwo{
+  width: 100%;
+  height: 50%;
+  border-radius: 20px;
+  background: blue;
+
+}
+
+
+
+.cartepopthree{
+  width: 300px;
+  height: 165px;
+  border-radius: 20px;
+  background: red;
+
+}
+
+
+.colum{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: space-between;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLETTE  moyenne 880 px*/
 
 @media screen and (min-device-width: 768px) and (max-width: 992px) {
   .hone {
@@ -448,6 +639,13 @@
 
 /* info span */
 
+@media screen and (max-width: 992px) {
+  .ccinfoo {
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .ccinfoo {
     display: block;
@@ -455,11 +653,5 @@
 
   .fa-info {
     float: left;
-  }
-}
-
-@media screen and (max-width 992px) {
-  .ccinfoo {
-    display: none;
   }
 }
