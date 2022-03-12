@@ -3,7 +3,9 @@
   font-family: "Raleway", sans-serif;
 }
 
-*{ box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 /* TOP NAV 1440px moyenne */
 
@@ -74,7 +76,6 @@
   margin-top: 1%;
 }
 
-
 .fa-solid.fa-location-dot {
   display: flex;
   width: 50px;
@@ -104,7 +105,6 @@
 .inputform:focus {
   outline: none;
 }
-
 
 #btwo {
   display: flex;
@@ -136,138 +136,105 @@
   font-weight: 80%;
   margin-bottom: 3%;
   font-weight: bold;
-
 }
 
-.htwo{
-  margin-right: 30px
+.htwo {
+  margin-right: 30px;
 }
 
-/* money */
-.money{
-  height: 50px;
-  width: 190px ;
+  /* money */
+
+.money {
   display: flex;
-  justify-content: center ;
+  height: 50px;
+  width: 190px;
+  justify-content: center;
   align-items: center;
-  border: #f2f2f2  solid 1px;
+  border: #f2f2f2 solid 1px;
   border-radius: 50px;
-  
-  
-  
 }
 
-.fa-money-bill-wave{
+.money > i:nth-child(1){
   display: flex;
   justify-content: center;
   align-items: center;
-  background:#DEEBFF ;
+  background: #deebff;
   height: 50px;
   width: 50px;
   border-radius: 50%;
   margin-right: 15px;
-  
 }
 
-/*child*/
 
-.child{ 
-  
+   /*child*/
+
+.child {
   height: 50px;
-  width: 150px ;
+  width: 150px;
   display: flex;
-  justify-content: center;
   align-items: center;
   border: #f2f2f2 solid 1px;
   border-radius: 50px;
   margin: 0 25px;
-
 }
 
-.fa-child{
+.child > i:nth-child(1){
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #DEEBFF;
+  background: #deebff;
   height: 50px;
   width: 50px;
   border-radius: 50%;
   margin-right: 15px;
-  
 }
 
-/*romantique*/
+  /*romantique*/
 
-.romantique{
+.romantique  {
   height: 50px;
-  width: 180px ;
-  display: flex;
-  align-items: center;
-  border: #f2f2f2  solid 1px;
-  border-radius: 50px;
-  margin-right: 25px;
-}
-
-.romantique > i:nth-child(1){
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #DEEBFF;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  margin-right: 15px;
-
-}
-
-/*dog */
-
-.dog{
-  height: 50px;
-  width: 235px ;
+  width: 180px;
   display: flex;
   align-items: center;
   border: #f2f2f2 solid 1px;
   border-radius: 50px;
- 
-
+  margin-right: 25px;
 }
 
-.dog > i:nth-child(1){
-
+.romantique > i:nth-child(1) {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #DEEBFF;
+  background: #deebff;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+/*dog */
+
+.dog {
+  height: 50px;
+  width: 235px;
+  display: flex;
+  align-items: center;
+  border: #f2f2f2 solid 1px;
+  border-radius: 50px;
+}
+
+.dog > i:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #deebff;
   height: 50px;
   width: 50px;
   border-radius: 50%;
   margin-right: 18px;
-
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* TABLETTE */
-
 
 @media screen and (max-width: 992px) {
   .hone {
@@ -275,32 +242,6 @@
     margin-top: 2%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* MOBILE 380px moyenne*/
 
@@ -363,27 +304,22 @@
 
   /* FORMULAIRE */
 
-  .formgen{
-      display: flex;
-      justify-content: center;
-      width: 340px;
-      height: 54px;
-      margin-right: 0;
-      margin-top: 50px;
-     border: #f2f2f2 solid 1px;
-     border-radius: 20px;
-     
-      
+  .formgen {
+    display: flex;
+    justify-content: center;
+    width: 340px;
+    height: 54px;
+    margin-right: 0;
+    margin-top: 50px;
+    border: #f2f2f2 solid 1px;
+    border-radius: 20px;
   }
 
-
-#btwo{
+  #btwo {
     display: none;
-}
+  }
 
-
-.fa-solid.fa-magnifying-glass{
-
+  .fa-solid.fa-magnifying-glass {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -394,26 +330,16 @@
     background: #0065fc;
     color: white;
     border-radius: 20px;
-    
-}
+  }
 
-
-#localform{
+  #localform {
     border: none;
     width: 238px;
+  }
 
-}
+  /* FILTRE*/
 
-/* FILTRE*/
-
-.htwo{
-flex-wrap: wrap;
-background: red;
-
-
-
-
-
-}
-
+  
+    
+  
 }
