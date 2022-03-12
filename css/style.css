@@ -56,13 +56,13 @@
   border-top: 2px solid #0065fc;
 }
 
-#cutclear {
-  display: none;
-}
-
 .hone {
   font-size: 140%;
   margin-bottom: 1%;
+}
+
+#ccone {
+  display: none;
 }
 
 /*FORMUMAIRE*/
@@ -245,9 +245,23 @@
   margin-right: 18px;
 }
 
+/* info span*/
+
+.fa-info {
+  padding: 5px 10px;
+  border: #deebff solid 1px;
+  border-radius: 50%;
+  color: #0065fc;
+  margin-right: 10px;
+}
+
+.ccinfoo {
+  display: none;
+}
+
 /* TABLETTE  moyenne */
 
-@media screen and (min-device-width:768px) and (max-width: 992px) {
+@media screen and (min-device-width: 768px) and (max-width: 992px) {
   .hone {
     font-size: 140%;
     margin-top: 2%;
@@ -293,11 +307,7 @@
     margin: 0 25px 15px 0;
     order: 1;
   }
-
-  
 }
-
-
 
 /* MOBILE 380px moyenne*/
 
@@ -358,6 +368,10 @@
     font-size: 140%;
   }
 
+  #ccone {
+    display: block;
+  }
+
   /* FORMULAIRE */
 
   .formgen {
@@ -395,7 +409,6 @@
   /* FILTRE*/
 
   .filtres {
-    
     flex-wrap: wrap;
     height: 212px;
     width: 330px;
@@ -433,11 +446,20 @@
   }
 }
 
+/* info span */
 
+@media screen and (max-width: 768px) {
+  .ccinfoo {
+    display: block;
+  }
 
-
-
-
+  .fa-info {
+    float: left;
+  }
 }
 
-*/
+@media screen and (max-width 992px) {
+  .ccinfoo {
+    display: none;
+  }
+}
