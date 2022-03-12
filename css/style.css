@@ -274,7 +274,7 @@
   justify-content: space-between;
   width: 100%;
   height: 15%;
-  background: red;
+  
 }
 
 
@@ -309,9 +309,110 @@
   margin-bottom: 6%;
   background: white;
   border-radius: 30px;
-  padding: 2%;
+  padding: 0.5%;
+  
 
 } 
+
+/*auberge cannebiere */
+
+
+.divimgcarte{
+display: flex;
+width: 100% ;
+height: 60%;
+border-radius: 20px;
+
+}
+
+.imgcarte{
+  width: 500%;
+  height: 100%;
+ object-fit: cover;
+ border-radius: 20px 20px 0 0;
+
+}
+.description{
+  justify-content: left;
+  padding:3% 0 5% 5%;
+  height: 33%;
+  border-radius: 0 0 30px 30px;
+  margin: 0;
+
+}
+
+.textdeconone{
+  text-decoration: none;
+  color: black
+}
+
+
+.description span:nth-child(1){
+  display: flex;
+  font-weight: bold;
+  font-size: 100%;
+  margin-bottom: 2%;
+}
+
+
+.description span:nth-child(2){
+  display:flex;
+  font-size: 90%;
+  margin-bottom: 2%;
+
+}
+
+.description span:nth-child(3){
+  display: flex;
+  justify-content: left;
+
+}
+
+.fa-solid.fa-star{
+  color: #0065fc;
+}
+
+/*fin auberge cannebiere/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .affpheb{
   width: 100%;  
@@ -319,6 +420,53 @@
   margin: 0;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*SIDEBAR*/
@@ -351,12 +499,6 @@
 
 }
 
-{
-  background: red;
-  width: 20px;
-  height: 20px;
-  
-}
 
 
 
