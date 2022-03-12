@@ -245,9 +245,9 @@
   margin-right: 18px;
 }
 
-/* TABLETTE */
+/* TABLETTE  moyenne */
 
-@media screen and (max-width: 992px) {
+@media screen and (min-device-width:768px) and (max-width: 992px) {
   .hone {
     font-size: 140%;
     margin-top: 2%;
@@ -293,7 +293,11 @@
     margin: 0 25px 15px 0;
     order: 1;
   }
+
+  
 }
+
+
 
 /* MOBILE 380px moyenne*/
 
@@ -391,7 +395,7 @@
   /* FILTRE*/
 
   .filtres {
-    display: flex;
+    
     flex-wrap: wrap;
     height: 212px;
     width: 330px;
@@ -428,3 +432,12 @@
     margin: 0 110px 0 0;
   }
 }
+
+
+
+
+
+
+}
+
+*/
