@@ -405,7 +405,6 @@ border-radius: 20px;
   justify-content: space-between;
 }
 
-
 .cartepop{
   display: flex;
   
@@ -414,12 +413,63 @@ border-radius: 20px;
   margin-bottom: 35px;
   background: white;
   border-radius: 20px;
-  padding: 10px;
-
-
+  padding: 1%;
 
 }
 
+.textdecononeact{
+  display: flex;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+
+}
+
+.imgpopdiv{
+   display: flex;
+   width: 40%;
+   height: 100%;
+   border-radius: 20px 0 0 20px;
+  
+  }
+
+.imgpopin{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+}
+
+.descriptionpop{
+  margin: 4%;
+
+}
+
+.descriptionpop span :nth-child(1){
+ margin-bottom: 1%;
+
+}
+
+.descriptionpop span :nth-child(2){
+margin-bottom: 10%;
+font-size: 90%;
+}
+
+.imgpopdiv1{
+  display: flex;
+  width: 60%;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+ 
+ }
+
+.imgpopin1{
+ display: flex;
+ width: 100%;
+ height: 100%;
+ border-radius: 20px 0 0 20px;
+}
 
 
 
