@@ -10,7 +10,7 @@
 /* TOP NAV 1440px moyenne */
 
 .marge_gen {
-  margin: 0 45px 0 45px;
+  margin: 0 3% 0 3%;
   width: 94%;
   height: auto;
 }
@@ -399,10 +399,11 @@ border-radius: 20px;
 
 
 .asipop{
+
   width: 32%;
   background: #f2f2f2;
   border-radius: 30px;
-  padding: 40px 35px 35px 35px;
+  padding: 35px 35px 35px 35px;
 
 }
 .titrepop{
@@ -413,8 +414,8 @@ border-radius: 20px;
 
 .cartepop{
   display: flex;
-  
-  width: 98%;
+  align-items: center;
+  width: 100%;
   height: 25%;
   margin-bottom: 35px;
   background: white;
@@ -425,7 +426,7 @@ border-radius: 20px;
 
 .cartepop:hover{
  transform: scale(1.15);
-
+transition: 0.5s;
 
 }
 
@@ -618,10 +619,25 @@ font-size: 90%;
   
 }
 
+.carteactone:hover{
+  transform: scale(1.05);
+ transition: 0.5s;
+ 
+ }
+ 
+ .carteacttwo:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
 
 
+ }
 
 
+.carteactthree:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+
+}
 
 
 
