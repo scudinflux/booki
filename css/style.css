@@ -273,7 +273,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 15%;
+  height: 618px;
   
 }
 
@@ -306,16 +306,13 @@
   justify-content: flex-start;
   width: 30%;
   height: 35%;
-  margin-bottom: 6%;
+  margin-bottom: 3%;
   background: white;
   border-radius: 30px;
   padding: 0.5%;
   
 
 } 
-
-/*auberge cannebiere */
-
 
 .divimgcarte{
 display: flex;
@@ -351,14 +348,14 @@ border-radius: 20px;
   display: flex;
   font-weight: bold;
   font-size: 100%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 
 
 .description span:nth-child(2){
   display:flex;
   font-size: 90%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 
 }
 
@@ -370,106 +367,28 @@ border-radius: 20px;
 
 .fa-solid.fa-star{
   color: #0065fc;
+  font-size: 80%;
+  
 }
 
-/*fin auberge cannebiere/*
+.spanone{
+  display: flex;
+  font-weight: bold;
+  font-size: 100%;
+  margin-bottom: 2%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 .affpheb{
-  width: 100%;  
-  padding-bottom: 5%;
+  display: flex;
   margin: 0;
 
 }
 
+/* FIN HEBERGEMENT */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*SIDEBAR*/
+/*SIDEBAR plus populaire*/
 
 
 
@@ -488,6 +407,8 @@ border-radius: 20px;
 
 
 .cartepop{
+  display: flex;
+  
   width: 98%;
   height: 25%;
   margin-bottom: 35px;
