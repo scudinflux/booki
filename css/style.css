@@ -504,7 +504,7 @@ font-size: 90%;
   width: 100%;
   height: 490px;
   margin-top: 60px;
- background: purple;
+
 
 }
 
@@ -527,7 +527,7 @@ font-size: 90%;
   height: 90%;
   width: 25%;
   border-radius: 20px;
-  background: yellow;
+  
 
 }
 
@@ -535,7 +535,7 @@ font-size: 90%;
   width: 100%;
   height: 52%;
   border-radius: 20px;
-  background: blue;
+  
 
 }
 
@@ -545,13 +545,13 @@ font-size: 90%;
   width: 100%;
   height: 38%;
   border-radius: 20px;
-  background: red;
+ 
 
 }
 
 
 .colum{
-  background: yellow;
+ 
   display: flex;
   flex-direction: column;
   align-content: flex-start;
@@ -562,32 +562,35 @@ font-size: 90%;
 
 .h4{
   display: flex;
-  background: beige;
+  background: #F2F2F2;
   width: 100%;
   height: 15%;
   border-radius: 0 0 20px 20px;
   font-weight: bold;
   padding-top: 5%;
+  padding-left: 5%;
 }
 
 .h41{
   display: flex;
-  background: beige;
+  background: #F2F2F2;
   width: 100%;
-  height: 28%;
+  height: 33%;
   border-radius: 0 0 20px 20px;
   font-weight: bold;
   padding-top: 5%;
+  padding-left: 5%;
 }
 
 .h43{
   display: flex;
-  background: beige;
+  background: #F2F2F2;
   width: 100%;
-  height: 66%;
+  height: 48%;
   border-radius: 0 0 20px 20px;
   font-weight: bold;
   padding-top: 5%;
+  padding-left: 5%;
 }
 
 
@@ -596,7 +599,7 @@ font-size: 90%;
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background: green;
+
   margin: 0;
   padding: 0%;
   text-decoration: none;
