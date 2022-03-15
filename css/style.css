@@ -315,7 +315,7 @@
   background: white;
   border-radius: 30px;
   padding: 0.5%;
-  
+  box-shadow: 5px 5px 3px rgba(53, 50, 50, 0.082);
 
 } 
 
@@ -457,7 +457,7 @@ width: 100%;
   background: white;
   border-radius: 20px;
   padding: 1%;
-
+ box-shadow: 5px 5px 3px rgba(53, 50, 50, 0.082);
 }
 
 .cartepop:hover{
@@ -569,7 +569,7 @@ margin: 0;
   height: 90%;
   width: 25%;
   border-radius: 20px;
-  
+  box-shadow: 5px 5px 3px rgba(53, 50, 50, 0.082);
 
 }
 
@@ -577,7 +577,7 @@ margin: 0;
   width: 100%;
   height: 52%;
   border-radius: 20px;
-  
+  box-shadow: 5px 5px 3px rgba(53, 50, 50, 0.082);
 
 }
 
@@ -587,7 +587,7 @@ margin: 0;
   width: 100%;
   height: 38%;
   border-radius: 20px;
- 
+  box-shadow: 5px 5px 3px rgba(53, 50, 50, 0.082);
 
 }
 
@@ -604,7 +604,7 @@ margin: 0;
 
 .h4{
   display: flex;
-  background: #F2F2F2;
+  background: white;
   width: 100%;
   height: 15%;
   border-radius: 0 0 20px 20px;
@@ -615,7 +615,7 @@ margin: 0;
 
 .h41{
   display: flex;
-  background: #F2F2F2;
+  background:white;
   width: 100%;
   height: 33%;
   border-radius: 0 0 20px 20px;
@@ -626,7 +626,7 @@ margin: 0;
 
 .h43{
   display: flex;
-  background: #F2F2F2;
+  background: white;
   width: 100%;
   height: 48%;
   border-radius: 0 0 20px 20px;
