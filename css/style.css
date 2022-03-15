@@ -273,7 +273,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 625px;
+  height: 630px;
   
 }
 
@@ -283,6 +283,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   width: 65%;
+  height: 100%;
   background : #f2f2f2;
   padding : 45px 40px;
   border-radius: 30px;
@@ -352,14 +353,14 @@ border-radius: 20px;
   display: flex;
   font-weight: bold;
   font-size: 100%;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 }
 
 
 .description span:nth-child(2){
   display:flex;
   font-size: 90%;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 
 }
 
@@ -385,7 +386,7 @@ border-radius: 20px;
 
 .affpheb{
   display: flex;
-  margin-top: ;
+
 width: 100%;
 
 }
@@ -395,6 +396,7 @@ width: 100%;
   color: black;
   font-weight: bold;
   display: flex;
+  width: 100%;
   font-size: 111%;
 }
 
@@ -543,6 +545,7 @@ margin: 0;
   width: 100%;
   height: 490px;
   margin-top: 60px;
+  margin-bottom: 4%;
 
 
 }
@@ -683,6 +686,64 @@ margin: 0;
 
 
 
+
+
+
+/*fFIN POPULAIRE */
+
+
+/*FOOTER*/
+
+
+.footer{
+  display: flex;
+  width: 100%;
+  height: 215px ;
+  padding-top: 2%;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding-right: 20%;
+  padding-left: 3%;
+ align-content: flex-start;
+}
+
+.footer ul {
+  list-style-type: none;
+  line-height: 30px;
+  justify-content: left;
+  padding: 0;
+
+}
+
+.footer a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer h3{
+display: flex;
+
+
+
+}
+
+
+
+
+
+/*
+.fooapropos{
+  background: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+}
+
+*/
+
+
+/*FIN FOOTER */
 
 /* TABLETTE  moyenne 880 px*/
 
