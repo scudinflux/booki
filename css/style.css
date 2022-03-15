@@ -273,7 +273,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 618px;
+  height: 625px;
   
 }
 
@@ -308,8 +308,8 @@
 .carteheb{
   display: flex;
   justify-content: flex-start;
-  width: 30%;
-  height: 35%;
+  width: 31%;
+  height: 37%;
   margin-bottom: 3%;
   background: white;
   border-radius: 30px;
@@ -386,9 +386,17 @@ border-radius: 20px;
 .affpheb{
   display: flex;
   margin: 0;
+width: 100%;
 
 }
 
+.textdecononeheb{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  font-size: 111%;
+}
 
 
 /* FIN HEBERGEMENT */
@@ -399,8 +407,12 @@ border-radius: 20px;
 
 
 .asipop{
-
-  width: 32%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
+  width: 31%;
+ height: 100%;
   background: #f2f2f2;
   border-radius: 30px;
   padding: 35px 35px 35px 35px;
@@ -408,16 +420,40 @@ border-radius: 20px;
 }
 .titrepop{
   display: flex;
-  margin: 0 0 35px 0;
+  width: 100%;
+  align-items: flex-start;
   justify-content: space-between;
+  margin: 
+  3% 0 9% 0;
+
+  
 }
+
+.h2pop{
+  display: flex;
+  width: 90%;
+  margin: 0;
+
+}
+
+.fa-chart-line{
+  display: flex;
+  font-size: 140%;
+  padding-top: 1%;
+  width: 8%;
+  height: 100%;
+  align-items: flex-end;
+  justify-content: right;
+}
+
 
 .cartepop{
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 25%;
-  margin-bottom: 35px;
+  height: 28%;
+  margin-bottom: 6%;
   background: white;
   border-radius: 20px;
   padding: 1%;
@@ -431,7 +467,7 @@ transition: 0.5s;
 }
 
 
-.textdecononeact{
+.textdecononepop{
   display: flex;
   text-decoration: none;
   color: black;
@@ -441,9 +477,9 @@ transition: 0.5s;
 }
 
 .imgpopdiv{
-   display: flex;
-   width: 40%;
-   height: 100%;
+  display: flex;
+  width: 40%;
+  height: 100%;
    border-radius: 20px 0 0 20px;
   
   }
@@ -454,9 +490,13 @@ transition: 0.5s;
   height: 100%;
   border-radius: 20px 0 0 20px;
   object-fit: cover;
+
 }
 
 .descriptionpop{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   margin: 4%;
 
 }
@@ -473,7 +513,7 @@ font-size: 90%;
 
 .imgpopdiv1{
   display: flex;
-  width: 60%;
+  width: 100%;
   height: 100%;
   border-radius: 20px 0 0 20px;
  
@@ -481,7 +521,7 @@ font-size: 90%;
 
 .imgpopin1{
  display: flex;
- width: 100%;
+ width: 40%;
  height: 100%;
  border-radius: 20px 0 0 20px;
  object-fit: cover;
