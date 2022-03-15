@@ -67,6 +67,14 @@
   display: none;
 }
 
+.spaninfo{
+ 
+  font-size: 85%;
+}
+
+
+
+
 /*FORMUMAIRE*/
 
 .formgen {
@@ -496,7 +504,7 @@ transition: 0.5s;
 .descriptionpop{
   display: flex;
 flex-direction: column;
-  width: 50%;
+  width: 60%;
   height: 100%;
 margin: 0;
   padding: 4%;
@@ -505,32 +513,34 @@ margin: 0;
 }
 
 .descriptionpop span:nth-child(1){
- width: 100%;
+ width: 90%;
   height: 30%;
- margin-bottom: 7%;
+ margin-bottom: 10%;
 }
 
-.descriptionpop span:nth-child(2){
+.startpop{
   
   display: flex;
   height: 20%;
-  margin-bottom: 20%;
-  font-size: 90%;
+  margin-bottom: 10%;
+  font-size: 85%;
 }
 
+.starpop2{
+  display: flex;
+  height: 20%;
+  margin-bottom: 8%;
+  font-size: 85%;
 
-
-
-
-
-
-
+}
 
 
 
    /* Fin SIDEBAR*/
 
-
+@media screen and (max-width: 768px){
+  
+}
 
 
 
@@ -942,11 +952,136 @@ display: flex;
 
 
 @media screen and (max-width: 768px) {
-  .ccinfoo {
-    display: block;
-  }
-
+ 
   .fa-info {
     float: left;
   }
+
+
+/* hebergement popualaire */
+
+
+
+.mainone{
+  display: flex;
+  flex-direction: column;
+  height: 1995px;
+  width: 100%;
+  margin: 0 0 35% 0
 }
+
+
+.mainone .secheb{
+  order: 2;
+
+
+}
+
+.asipop{
+  display: flex;
+  width: 100%;
+  height: 42%;
+   justify-content: space-between;
+   padding: 5% 0 10% 0;
+}
+
+.cartepop{
+  width: 92%;
+}
+
+.cartepop:hover{
+  transform: scale(1.05);
+ transition: 0.5s;
+ 
+ }
+ 
+
+
+
+
+.secheb{
+  width: 100%;
+  height: 1415px;
+  display: flex;
+  padding: 10% 4% 10% 4%;
+  background: white;
+  
+}
+
+.carteheb{
+  width: 100%;
+  height: 16%;
+}
+
+.carteheb:hover{
+  transform: scale(1.05);
+ transition: 0.5s;
+ 
+ }
+ 
+
+.affheb{
+  margin-top: 5%;
+  margin-bottom: 5 15%;
+  font-weight: 110%;
+  width: 100%;
+  
+}
+
+
+.textdecononeheb{
+font-size: 130%;
+}
+
+.secact{
+width: 100%;
+height: 1350px;
+margin: 0 2% 0 4%;
+align-items: flex-start;
+justify-content: left;
+justify-items: self-start;
+
+}
+
+.colum{
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0%;
+  
+}
+
+.carteactone{
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 14%;
+  
+}
+
+.carteacttwo{
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 14%;
+}
+
+.carteactthree{
+  
+  width: 100%;
+  height: 14%;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
