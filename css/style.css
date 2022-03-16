@@ -741,18 +741,6 @@ display: flex;
 
 
 
-/*
-.fooapropos{
-  background: brown;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-
-}
-
-*/
-
-
 /*FIN FOOTER */
 
 /* TABLETTE  moyenne 880 px*/
@@ -812,6 +800,7 @@ display: flex;
 @media screen and (max-width: 768px) {
   .marge_gen {
     margin: 0;
+    padding: 0;
   }
 
   .blocksearch {
@@ -979,14 +968,15 @@ display: flex;
 
 .asipop{
   display: flex;
-  width: 100%;
+  width: 110%;
   height: 42%;
    justify-content: space-between;
-   padding: 5% 0 10% 0;
+   padding: 5% 5% 10% 1%;
+   border-radius: 0%;
 }
 
 .cartepop{
-  width: 92%;
+  width: 95%;
 }
 
 .cartepop:hover{
@@ -1000,12 +990,12 @@ display: flex;
 
 
 .secheb{
-  width: 100%;
+  width: 103%;
   height: 1415px;
   display: flex;
-  padding: 10% 4% 10% 4%;
+  padding: 10% 0% 10% 5%;
   background: white;
-  
+  border-radius: 0%;
 }
 
 .carteheb{
@@ -1033,45 +1023,66 @@ display: flex;
 font-size: 130%;
 }
 
-.secact{
-width: 100%;
-height: 1350px;
-margin: 0 2% 0 4%;
-align-items: flex-start;
-justify-content: left;
-justify-items: self-start;
+/*ACTIVITE*/
 
+
+
+.secact{
+display: flow-root;
+margin-top: 5%;
+width: 100%;
+height: 1354px;
+padding: 0 0 0 7%;
 }
+
+.affheb{
+  margin-bottom: 10%;
+}
+
+
+.actmar{
+  margin-bottom: 8%;
+}
+
 
 .colum{
-  flex-wrap: wrap;
-  flex-direction: row;
+  display: flow-root;
   width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0%;
-  
+  height: 25%;
+ 
 }
+
+
 
 .carteactone{
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: flex;
   width: 100%;
-  height: 14%;
-  
+  height: 10%;
+  margin-bottom: 10%;
+}
+.carteacttwo{
+  display: flex;
+  height: 45%;
+  width: 100%;
+ margin-bottom: 10%;
 }
 
-.carteacttwo{
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 14%;
-}
 
 .carteactthree{
-  
+  display: flex;
+  height: 45%;
   width: 100%;
-  height: 14%;
+  margin-bottom: 10%;
+}
+
+
+
+.footer{
+  margin-top: 5%;
+  flex-direction: column;
+  height: 586px;
+  font-size: 100%;
+ padding: 5% 5% 10% 5%;
 }
 
 
@@ -1081,7 +1092,5 @@ justify-items: self-start;
 
 
 
+
 }
-
-
-
