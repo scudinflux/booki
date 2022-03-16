@@ -891,12 +891,62 @@ display: flex;
        
      }
 
+   /* ACTIVITE */
+
+   .secact{
+     margin-bottom: 70%;
+   }
+
+
+   .colum{
+    width: 48%;
+    
+    
+  }
+
+
+   .carteactone{
+     width: 48%;
+    
+     margin-bottom: 5%;
+   }
+     
+   .h4{
+     height: 18%;
+   }
+  
+
+    .carteacttwo{
+      height: 45%;
+    }
+
+    .h41{
+      height: 50%;
+    }
+
+    .carteactthree{
+      height: 45%;
+    }
+
+    .h43{
+      height: 50%;
+    }
+
+    
+
+
+
+
+
+
+
+
+
 
 
   .footer{
     padding-right: 3%;
   }
-
 
 
 
