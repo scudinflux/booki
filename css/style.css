@@ -894,6 +894,7 @@ display: flex;
    /* ACTIVITE */
 
    .secact{
+    
      margin-bottom: 70%;
    }
 
@@ -904,6 +905,10 @@ display: flex;
     
   }
 
+
+  .actmar{
+    margin-bottom: 2%;
+  }
 
    .carteactone{
      width: 48%;
