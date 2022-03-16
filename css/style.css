@@ -258,9 +258,33 @@
 
 /* info span*/
 
-.info{
-  margin: 30px 5px ;
+
+
+.textdecononeinfo{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 2%;
+   
+
 }
+
+#cutspaninfo{
+  display: none;
+}
+
+
+.fa-info{
+  height: 30px ;
+}
+
+ .spaninfo{
+   margin: 0;
+   font-size: 100%;
+
+ }
 
 .fa-info {
   padding: 5px 10px;
@@ -270,9 +294,6 @@
   margin-right: 10px;
 }
 
-.ccinfoo {
-  display: none;
-}
 
 
 /* HERGERGEMENT*/
@@ -867,7 +888,7 @@ display: flex;
 
      #descritab{
        padding-right: 25%;
-       background: red;
+       
      }
 
 
@@ -893,7 +914,7 @@ display: flex;
 
 /*topnavmobile*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 766px) {
 
   
   .marge_gen {
@@ -902,14 +923,36 @@ display: flex;
     
     
   }
+ 
+  .textdecononeinfo{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    height: 40px;
+     
+
+  }
+
+  .fa-info{
+    height: 30px ;
+  }
+ 
+   .spaninfo{
+     margin: 0;
+     font-size: 100%;
+
+   }
+
+   #cutspaninfo{
+    display: block;
+  }
+
+
 
   .blocksearch {
     margin: 0px 20px 0 20px;
   }
 
-  #cutclear {
-    display: block;
-  }
 
   .tbnav {
     display: flex;
