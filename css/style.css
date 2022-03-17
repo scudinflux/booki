@@ -904,6 +904,47 @@ display: flex;
     
   }
 
+/*
+
+  .secact div:nth-child(3){
+    order : 1;
+  }
+
+
+  
+  .secact nav:nth-child(2){
+    background: yellow;
+    order : 2;
+  }
+
+
+*/
+
+/*
+
+.secact nav:nth-child(2){
+  background: yellow;
+  order : 2;
+}
+
+*/
+
+
+/*
+
+.secact div:nth-child(3){
+  order : 1;
+}
+
+
+*/
+
+
+
+
+
+
+
 
   .actmar{
     margin-bottom: 2%;
