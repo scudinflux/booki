@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&display=swap%22");
 * {
   font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+
 }
 
-* {
-  box-sizing: border-box;
-}
+
+
+
 body{
   max-width: 1440px;
   margin-left: auto;
@@ -26,6 +28,15 @@ body{
   width: 100%;
   justify-content: space-between;
 }
+
+#logoimg{
+  width:90px; 
+  height:45px;
+}
+
+
+
+
 
 .logo {
   width: 75%;
@@ -418,6 +429,40 @@ border-radius: 20px;
   
 }
 
+#gstar1{
+  color: #f2f2f2;
+}
+
+
+#gstar2{
+  color: #f2f2f2;
+}
+
+
+#gstar3{
+  color: #f2f2f2;
+}
+
+
+#gstar4{
+  color: #f2f2f2;
+}
+
+
+#gstar5{
+  color: #f2f2f2;
+}
+
+
+#gstar6{
+  color: #f2f2f2;
+}
+
+
+#gstar7{
+  color: #f2f2f2;
+}
+
 .spanone{
   display: flex;
   font-weight: bold;
@@ -742,12 +787,7 @@ width: 100%;
 
 
 */
-
-
-
-
-
-
+s
 
 /*fFIN POPULAIRE */
 
@@ -804,7 +844,7 @@ display: flex;
 
 /* TABLETTE  moyenne 880 px*/
 
-@media screen and (min-device-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .hone {
     font-size: 140%;
     margin-top: 2%;
@@ -960,12 +1000,6 @@ display: flex;
     order : 2;
   }
 
-  
-
-
-
-
-
 .secact nav:nth-child(2){
  
   order : 2;
@@ -1044,7 +1078,7 @@ display: flex;
 
 /*topnavmobile*/
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 768px) {
 
   
   .marge_gen {
@@ -1160,7 +1194,7 @@ display: flex;
 
   #btwo {
     display: none;
-    background: white;
+    
   }
 
 
