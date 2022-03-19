@@ -728,13 +728,13 @@ align-items: center;
 
   .filtres .money {
     justify-content: left;
-    width: 175px;
+    width: 200px;
     margin: 0 0px 15px 45px;
     order: 4;
   }
 
   .filtres .child {
-    width: 140px;
+    width: 200px;
     margin: 0 0 15px 20px;
     order: 2;
   }
