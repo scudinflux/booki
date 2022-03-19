@@ -694,6 +694,17 @@ body {
 /* TABLETTE  moyenne 880 px*/
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+.blocksearch{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+
+}
+.formgen{
+  margin-top: 20px;
+}
+
   .hone {
     font-size: 140%;
     margin-top: 2%;
@@ -701,17 +712,17 @@ body {
 
   .filtres {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     height: 150px;
     width: 420px;
+   
   }
   .htwo {
     justify-content: left;
     width: 100%;
     height: 30px;
     margin: 0 0 0 8px;
-    padding: 0;
+    padding: 0 0 0 175px;
   }
 
   .filtres .money {
@@ -824,6 +835,12 @@ body {
     height: 450px;
   }
 
+
+
+/* hebergement en quiconce */
+/* en colone carte myoenne en tete commenter section quinconce */
+
+
   .secact div:nth-child(3) {
     order: 1;
   }
@@ -832,53 +849,23 @@ body {
     order: 2;
   }
 
-  .secact nav:nth-child(2) {
+
+
+/* colone carte petite en tete */
+
+/*
+  .secact nav:nth-child(1) {
     order: 2;
-  }
+  } 
+*/
 
-  /*
+/* colone deux grosse carte en tete puis quinconce  */
 
+/*
 .secact div:nth-child(3){
   order : 1;
 }
-
-
 */
-
-  /*
-
-  .actmar{
-    margin-bottom: 2%;
-  }
-
-   .carteactone{
-     width: 48%;
-    
-     margin-bottom: 5%;
-   }
-     
-   .h4{
-     height: 18%;
-   }
-  
-
-    .carteacttwo{
-      height: 45%;
-    }
-
-    .h41{
-      height: 50%;
-    }
-
-    .carteactthree{
-      height: 45%;
-    }
-
-    .h43{
-      height: 50%;
-    }
-
-    */
 
   .footer {
     padding: 0 5% 0 5%;
