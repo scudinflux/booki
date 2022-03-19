@@ -162,7 +162,7 @@ body {
   width: 195px;
   justify-content: left;
   align-items: center;
-  border: #f2f2f2 solid 1px;
+  border: #f2f2f2 solid 2px;
   border-radius: 50px;
 }
 
@@ -187,7 +187,7 @@ body {
   width: 150px;
   display: flex;
   align-items: center;
-  border: #f2f2f2 solid 1px;
+  border: #f2f2f2 solid 2px;
   border-radius: 50px;
   margin: 0 25px;
 }
@@ -213,7 +213,7 @@ body {
   width: 180px;
   display: flex;
   align-items: center;
-  border: #f2f2f2 solid 1px;
+  border: #f2f2f2 solid 2px;
   border-radius: 50px;
   margin-right: 25px;
 }
@@ -239,7 +239,7 @@ body {
   width: 235px;
   display: flex;
   align-items: center;
-  border: #f2f2f2 solid 1px;
+  border: #f2f2f2 solid 2px;
   border-radius: 50px;
 }
 
