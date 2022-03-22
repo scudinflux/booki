@@ -698,7 +698,7 @@ body {
 .blocksearch{
   display: flex;
   flex-direction: column;
-align-items: center;
+align-items: left;
 
 }
 .formgen{
@@ -723,7 +723,7 @@ align-items: center;
     width: 100%;
     height: 30px;
     margin: 0 0 0 8px;
-    padding: 0 0 20px 225px;
+    padding: 0 0 20px 0px;
   }
 
   .filtres .money {
