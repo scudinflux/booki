@@ -927,8 +927,8 @@ align-items: left;
   }
 
   .blocksearch {
-    width: 100%;
-    margin: 0px 20px 0 20px;
+    width: 92%;
+    margin: 0px 20px 0 30px;
   }
 
   .tbnav {
@@ -1082,7 +1082,7 @@ align-items: left;
     display: flex;
     flex-direction: column;
     height: 2020px;
-    width: 94%;
+    width: 100%;
     margin: 0 0 25% 0;
   }
 
@@ -1099,10 +1099,10 @@ align-items: left;
 
   .asipop {
     display: flex;
-    width: 110%;
+    width: 100%;
     height: 100%;
     justify-content: space-between;
-    padding: 5% 5% 5% 1%;
+    padding: 5% 4% 5% 1%;
     border-radius: 0%;
   }
 
@@ -1111,14 +1111,14 @@ align-items: left;
   }
 
   .cartepop {
-    width: 92%;
+    width: 94%;
   }
 
   .secheb {
     width: 100%;
     height: 1415px;
     display: flex;
-    padding: 10% 0% 10% 5%;
+    padding: 10% 8% 10% 5%;
     background: white;
     border-radius: 0%;
   }
@@ -1126,6 +1126,7 @@ align-items: left;
   .carteheb {
     width: 100%;
     height: 16%;
+
   }
 
   .affheb {
@@ -1134,6 +1135,11 @@ align-items: left;
     font-size: 110%;
     width: 100%;
   }
+
+ .divimgcarte{
+   padding: 1%;
+ }
+
 
   .textdecononeheb {
     font-size: 130%;
@@ -1145,7 +1151,7 @@ align-items: left;
 
   .secact {
     flex-direction: column;
-    width: 94%;
+    width: 91%;
     height: 1360px;
     justify-content: space-between;
     padding-left: 5%;
