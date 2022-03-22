@@ -928,7 +928,7 @@ align-items: left;
 
   .blocksearch {
     width: 92%;
-    margin: 0px 20px 0 30px;
+    margin: 0px 0px 0 30px;
   }
 
   .tbnav {
@@ -1118,7 +1118,7 @@ align-items: left;
     width: 100%;
     height: 1415px;
     display: flex;
-    padding: 10% 8% 10% 5%;
+    padding: 10% 6% 10% 5%;
     background: white;
     border-radius: 0%;
   }
@@ -1151,7 +1151,7 @@ align-items: left;
 
   .secact {
     flex-direction: column;
-    width: 91%;
+    width: 94%;
     height: 1360px;
     justify-content: space-between;
     padding-left: 5%;
@@ -1197,7 +1197,7 @@ align-items: left;
 
   .footer {
     flex-direction: column;
-    width: 110%;
+    width: 100%;
     height: 60%;
     font-size: 100%;
     padding: 5% 5% 0% 5%;
