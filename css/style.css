@@ -337,6 +337,7 @@ body {
 .hnone {
   margin-top: 0;
   margin-bottom: 3%;
+  font-size: 140%;
 }
 
 .carteheb {
@@ -479,6 +480,7 @@ body {
   display: flex;
   width: 90%;
   margin: 0;
+  font-size: 140%;
 }
 
 .fa-chart-line {
@@ -562,13 +564,13 @@ body {
 
 .actmar {
   display: flex;
-
   margin: 0;
   width: 100%;
   height: 40px;
 }
 .actmarins {
   margin: 0 0 1% 0;
+  font-size: 140%;
 }
 .actmarpac1 {
   display: flex;
@@ -1151,7 +1153,7 @@ body {
   .affheb {
     margin-top: 5%;
     margin-bottom: 15%;
-    font-size: 110%;
+    font-size: 10%;
     width: 100%;
   }
 
