@@ -3,13 +3,13 @@
   font-family: "Raleway", sans-serif;
   box-sizing: border-box;
 }
-
+/*
 body {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
-
+*/
 /* TOP NAV 1440px test moyenne */
 
 .marge_gen {
@@ -66,6 +66,8 @@ body {
 }
 
 .hone {
+  display:flex;
+  width: 100%;
   font-size: 140%;
   margin-bottom: 1%;
 }
@@ -84,14 +86,20 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  width: 425px;
+  width: 40%;
   height: 50px;
   margin-top: 1%;
 }
 
+.labelform{
+  display: flex;
+  width: 20%;
+  justify-content: center;
+}
+
 .fa-solid.fa-location-dot {
   display: flex;
-  width: 50px;
+  width: 100%;
   height: 54px;
   font-size: 120%;
   align-items: center;
@@ -104,7 +112,7 @@ body {
 
 .inputform {
   height: 54px;
-  width: 230px;
+  width: 100%;
   border: #f2f2f2 solid 1px;
   font-weight: bold;
   font-size: 120%;
@@ -141,17 +149,21 @@ body {
 
 .filtres {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  width: 930px;
+  width: 80%;
   height: 50px;
+  
   margin-top: 35px;
   margin-bottom: 3%;
   font-weight: bold;
+ 
 }
 
 .htwo {
-  margin-right: 30px;
+  width: 10%;
+  margin-right: 1%;
+
 }
 
 /* money */
@@ -159,11 +171,11 @@ body {
 .money {
   display: flex;
   height: 50px;
-  width: 195px;
-  justify-content: left;
+  width: 190px;
   align-items: center;
   border: #f2f2f2 solid 2px;
   border-radius: 50px;
+  margin-right: 1%;
   
 }
 
@@ -183,7 +195,8 @@ body {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 5%;
+  
 }
 
 /*child*/
@@ -195,7 +208,8 @@ body {
   align-items: center;
   border: #f2f2f2 solid 2px;
   border-radius: 50px;
-  margin: 0 25px;
+  margin-right: 1%;
+  
 }
 
 .child:hover{
@@ -214,19 +228,21 @@ body {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 5%;
+  
 }
 
 /*romantique*/
 
 .romantique {
   height: 50px;
-  width: 180px;
+  width: 170px;
   display: flex;
   align-items: center;
   border: #f2f2f2 solid 2px;
   border-radius: 50px;
-  margin-right: 25px;
+  margin-right: 1%;
+  
 }
 
 .romantique:hover{
@@ -241,11 +257,11 @@ body {
   background: #deebff;
   color: #0065fc;
   font-size: 120%;
-  font-stretch: condensed;
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 5%;
+  
 }
 
 /*dog */
@@ -275,7 +291,8 @@ body {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  margin-right: 18px;
+  margin-right: 5%;
+  
 }
 
 /* info span*/
