@@ -93,7 +93,7 @@ body {
 
 .labelform{
   display: flex;
-  width: 20%;
+  width: 30%;
   justify-content: center;
 }
 
@@ -740,6 +740,7 @@ body {
   flex-direction: column;
 }
 .formgen{
+  width: 65%;
   margin-top: 20px;
 }
 
@@ -752,7 +753,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: 180px;
-    width: 500px;
+    width: 70%;
     margin-top: 20px;
     justify-content: space-between;
    
@@ -960,9 +961,6 @@ body {
     font-size: 100%;
   }
 
-  #cutspaninfo {
-    display: block;
-  }
 
   .blocksearch {
     width: 92%;
@@ -1021,7 +1019,7 @@ body {
   .formgen {
     display: flex;
     justify-content: left;
-    width: 325px;
+    width: 80%;
     height: 54px;
     margin-right: 0;
     margin-top: 50px;
@@ -1034,19 +1032,17 @@ body {
   }
 
   .labelform {
-    width: 20%;
+    width: 30%;
   }
 
-  .fa-location-dot {
-    width: 100%;
-  }
+  
 
   .fa-solid.fa-magnifying-glass {
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 20%;
+    width: 30%;
     border-radius: 0;
     border: #0065fc solid 1px;
     background: #0065fc;
@@ -1060,52 +1056,53 @@ body {
     border: none;
   }
 
-  .labelform {
-    width: 50px;
-    height: 48px;
-  }
-
+  
   /*FIN FORMULAIRE */
 
   /* FILTRE*/
 
   .filtres {
+   
     flex-wrap: wrap;
-    height: 212px;
-    width: 325px;
-    justify-content: left;
+    height: 40%;
+    width: 60%;
+    align-items: center;
+    
     margin-left: 0;
   }
   .htwo {
     justify-content: left;
-    width: 400px;
+    width: 100%;
     height: 30px;
-    margin: 0 0 0 8px;
-    padding: 0;
+    margin: 0 0 5px 8px;
+    
   }
 
   .money {
     justify-content: left;
-    width: 175px;
     margin: 0 10px 10px 0;
   }
 
   .child {
-    width: 140px;
-    margin: 0 0 10px 0;
+    width: 145px;
+    height: 50px;
+    margin: 0 30px 10px 0;
+    
   }
 
   .money {
-    align-content: flex-start;
+    width: 165px;
+    
   }
 
   .romantique {
-    margin: 0 160px 10px 0;
+    margin: 0 15px 10px 0;
     width: 170px;
   }
 
   .dog {
-    margin: 0 110px 0 0;
+    margin-bottom: 10px;
+   
   }
 
   /* info span */
